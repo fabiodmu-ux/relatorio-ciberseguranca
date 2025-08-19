@@ -2,7 +2,7 @@
 mkdir relatorio-ciberseguranca
 cd relatorio-ciberseguranca
 
-# 2. Copiar os arquivos gerados (ajuste os caminhos conforme onde salvou)
+# 2. Copiar os arquivos gerados
 cp /caminho/para/Relatorio_Ciberseguranca.pdf .
 cp /caminho/para/README.md .
 
@@ -14,8 +14,9 @@ git branch -M main
 git add README.md Relatorio_Ciberseguranca.pdf
 git commit -m "Relatório de análise de vagas em Cibersegurança"
 
-# 5. Conectar ao GitHub
-git remote add origin https://github.com/fabiodmu-ux/relatorio-ciberseguranca.git
-
+# 5. Vamos nos conectar?
+https://www.linkedin.com/in/f%C3%A1bio-d-b39050209/?trk=opento_sprofile_details
+https://github.com/fabiodmu-ux/relatorio-ciberseguranca.git
+Email:fabiodmu@gmail.com
 # 6. Enviar para o GitHub
 git push -u origin main
