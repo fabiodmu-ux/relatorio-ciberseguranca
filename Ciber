@@ -1,0 +1,21 @@
+# 1. Criar pasta e entrar nela
+mkdir relatorio-ciberseguranca
+cd relatorio-ciberseguranca
+
+# 2. Copiar os arquivos gerados (ajuste os caminhos conforme onde salvou)
+cp /caminho/para/Relatorio_Ciberseguranca.pdf .
+cp /caminho/para/README.md .
+
+# 3. Iniciar repositório Git
+git init
+git branch -M main
+
+# 4. Adicionar e commitar arquivos
+git add README.md Relatorio_Ciberseguranca.pdf
+git commit -m "Relatório de análise de vagas em Cibersegurança"
+
+# 5. Conectar ao GitHub
+git remote add origin https://github.com/fabiodmu-ux/relatorio-ciberseguranca.git
+
+# 6. Enviar para o GitHub
+git push -u origin main
