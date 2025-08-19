@@ -4,7 +4,7 @@ cd relatorio-ciberseguranca
 
 # 2. Copiar os arquivos gerados
 cp /caminho/para/Relatorio_Ciberseguranca.pdf .
-cp /caminho/para/README.md .
+https://cibersegurana.readme.io/docs/getting-started#/.
 
 # 3. Iniciar repositório Git
 git init
